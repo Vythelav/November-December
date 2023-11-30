@@ -1,0 +1,158 @@
+body {
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, rgb(76, 0, 111), rgb(208, 208, 208));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteynner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 7vh;
+    flex-basis: 300px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 40px;
+    border: 1px solid #301a4e;
+    border-radius: 100%;
+    margin: 0 0 0 10px;
+    color: #fff;
+    padding: 15px;
+    gap: 10px;
+    font-size: 40px;
+    font-style: italic;
+
+}
+
+.text {
+    color: #fff;
+    font-style: italic;
+}
+
+nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+
+nav a {
+    border: 4px double #301a4e;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    border: 4px double #fff;
+    transition: all 300ms;
+    padding: 10px;
+}
+
+nav a:active {
+    background-color: #301a4e;
+    transition: all 400ms;
+}
+
+hr {
+    height: 10vh;
+    border: 2px solid rgb(114, 21, 151);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px 0 0;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+}
+
+.main_conteyner {
+    display: flex;
+    margin: 100px 180px;
+    max-width: 1080px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-height: 500px;
+    height: 300px;
+    min-height: 150px;
+    border: 5px double #301a4e;
+    border-radius: 20px;
+    padding: 10px;
+    flex-basis: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    
+}
+
+main a {
+    border: 4px double #301a4e;
+    text-decoration: none;
+    padding: 3px;
+    color: #fff;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.item_title {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.item:hover {
+    padding: 15px;
+    transition: all 300ms;
+
+}
+
+main a:hover {
+    border: 4px double #fff;
+    transition: all 300ms;
+
+}
+
+main a:active {
+    background-color: #301a4e;
+    transition: all 400ms;
+}
+
+footer {
+    background-color: #301a4e;
+    opacity: 0.4;
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
